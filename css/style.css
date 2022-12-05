@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    max-width: 100vw;
+    height: 1080px;
+    overflow-y: hidden;
+    background-image: url('../imagens/gym-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header{
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+}
+
+
+section{
+    padding: 15px;
+    text-align: center;
+    font: 13pt normal arial;
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.452);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.582);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#mensagem{
+    color: rgb(241, 233, 119);
+}
+
+#foto{
+    display: block;
+    margin: 0 auto;
+}
+
+section h1, input, div#res{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
