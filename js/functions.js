@@ -43,7 +43,7 @@ function verificar(){
         img.setAttribute('src', './imagens/5.png')
         res.innerHTML = "<p id='mensagem'>Você está mentindo!</p>"  
     }
-    res.innerHTML += `Você pega ${kg} kg supino!`;
+    res.innerHTML += `Você pega ${kg} kg no supino!`;
     res.appendChild(img);
 
 }
